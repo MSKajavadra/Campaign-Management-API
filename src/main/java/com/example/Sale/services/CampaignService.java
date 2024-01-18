@@ -66,7 +66,7 @@ public class CampaignService {
         LocalDate currentDate=LocalDate.now();
         Campaign[] campaigns=campaignRepo.findByStatus("Current");
         for(Campaign campaign:campaigns){
-
+            LocalDate endDate=campaign.getEndDate();
             if(currentDate.isAfter(endDate)){
                 endCampaign(campaign);
             }
