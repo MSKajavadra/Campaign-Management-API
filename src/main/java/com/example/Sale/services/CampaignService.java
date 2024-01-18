@@ -34,7 +34,7 @@ public class CampaignService {
         campaign.setTitle(title);
 
         LocalDate currentDate=LocalDate.now();
-        if(currentDate.isAfter(startDate) && currentDate.isBefore(endDate)){
+        if(currentDate.isAfter(startDate) && (currentDate.isBefore(endDate) || currentDate.isEqual(endDate))){
             campaign.setStatus("Current");
         }else if(currentDate.isBefore(startDate)){
             campaign.setStatus("Upcoming");
