@@ -1,6 +1,8 @@
 package com.example.Sale.services;
 
 import com.example.Sale.models.*;
+import com.example.Sale.models.DTOs.CampaignDTO;
+import com.example.Sale.models.DTOs.CampaignDiscountDTO;
 import com.example.Sale.repository.CampaignDiscountRepo;
 import com.example.Sale.repository.CampaignRepo;
 import com.example.Sale.repository.PriceHistoryRepo;

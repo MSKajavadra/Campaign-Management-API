@@ -1,5 +1,6 @@
-package com.example.Sale.models;
+package com.example.Sale.models.DTOs;
 
+import com.example.Sale.models.DTOs.CampaignDiscountDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

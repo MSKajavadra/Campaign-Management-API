@@ -1,6 +1,6 @@
 package com.example.Sale.controllers;
 
-import com.example.Sale.models.CampaignDTO;
+import com.example.Sale.models.DTOs.CampaignDTO;
 import com.example.Sale.services.CampaignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,7 +1,7 @@
 package com.example.Sale.controllers;
 
 
-import com.example.Sale.models.PaginationDTO;
+import com.example.Sale.models.DTOs.PaginationDTO;
 import com.example.Sale.models.Product;
 import com.example.Sale.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;

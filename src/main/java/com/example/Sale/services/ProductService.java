@@ -1,11 +1,9 @@
 package com.example.Sale.services;
 
-import com.example.Sale.models.PaginationDTO;
+import com.example.Sale.models.DTOs.PaginationDTO;
 import com.example.Sale.models.PriceHistory;
 import com.example.Sale.models.Product;
-import com.example.Sale.models.ProductDTO;
-import com.example.Sale.repository.CampaignDiscountRepo;
-import com.example.Sale.repository.CampaignRepo;
+import com.example.Sale.models.DTOs.ProductDTO;
 import com.example.Sale.repository.PriceHistoryRepo;
 import com.example.Sale.repository.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.time.LocalDate;
 import java.util.List;
 
