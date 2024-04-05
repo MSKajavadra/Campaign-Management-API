@@ -77,7 +77,7 @@ public class CampaignService {
         for(Campaign campaign:campaigns){
             LocalDate startDate=campaign.getStartDate();
             LocalDate endDate=campaign.getEndDate();
-            if(currentDate.isAfter(startDate) && currentDate.isBefore(endDate)){
+            if(currentDate.isAfter(startDate) && (currentDate.isBefore(endDate) || currentDate.isEqual(endDate))){
                 startCampaign(campaign);
             }
         }
